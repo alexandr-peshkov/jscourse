@@ -1,0 +1,18 @@
+h1{
+    background-color:gold;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+h1:after{
+    content:"новая версия";
+    background-color: #fff;
+    font-size: 14px;
+    position: absolute;
+    right:-100px;
+    top:15px;
+    border-bottom:1px solid goldenrod;
+    
+
+}
